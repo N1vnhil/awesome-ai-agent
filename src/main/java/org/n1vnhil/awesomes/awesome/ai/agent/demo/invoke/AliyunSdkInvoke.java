@@ -27,7 +27,7 @@ public class AliyunSdkInvoke {
                 .build();
 
         GenerationParam param = GenerationParam.builder()
-                .apiKey("")
+                .apiKey(System.getenv("BAILIAN_API_KEY"))
                 .model("qwen-turbo")
                 .messages(Arrays.asList(sysMsg, userMsg))
                 .resultFormat(GenerationParam.ResultFormat.MESSAGE)
