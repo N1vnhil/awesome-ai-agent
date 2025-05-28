@@ -3,6 +3,12 @@ spring:
     name: awesome-ai-agent
   profiles:
     active: secret
+  ai:
+    dashscope:
+      api-key: ${BAILIAN_API_KEY}
+      chat:
+        options:
+          model: qwen-plus
 server:
   port: 8080
 # springdoc-openapi
