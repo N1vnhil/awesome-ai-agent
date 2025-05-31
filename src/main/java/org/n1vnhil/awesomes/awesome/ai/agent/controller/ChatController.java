@@ -23,4 +23,8 @@ public class ChatController {
         return loveApp.doChatWithRag(message, "0");
     }
 
+    @PostMapping("/question/cloud")
+    public String questionChatWithCloudRag(@RequestBody String message) {
+        return loveApp.doChatWithCloudRag(message, "0");
+    }
 }
