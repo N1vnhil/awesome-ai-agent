@@ -3,7 +3,6 @@ package org.n1vnhil.awesomes.awesome.ai.agent.demo.invoke;
 import cn.hutool.http.HttpRequest;
 import cn.hutool.http.HttpResponse;
 import cn.hutool.json.JSONObject;
-import org.springframework.scheduling.support.SimpleTriggerContext;
 
 import java.util.Map;
 
